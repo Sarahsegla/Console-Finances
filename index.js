@@ -93,16 +93,17 @@ let finances = [
     };
 
     for (var i = 0; i < finances.length; i++) {
-        console.log(finances[0][1]);
-        console.log(finances[85][1]);
+        console.log(finances.length);
+       // console.log(finances[85][1]);
 
     };
+    let profitLosses = 0;
     
     console.log(finances[0][1] + finances[1][1]);
  
-   // let array2D = [[1,2,3], [4,5,6]];
+   let array2D = [[1,2,3], [4,5,6]];
 
-    // array2D[0][1];
+    console.log(array2D[0][1]);
 
   
 
@@ -125,4 +126,17 @@ let totalMonths =  console.log(finances.length);
   //  console.log(finances[1][0]);
 //};
 
+var totalProfitLose = 0;
 
+for (var i = 0; i < finances.length; i++) {
+   let finance = finances[i];
+  let date = finance[0];
+   let profitLose = finance[1];
+   totalProfitLose = totalProfitLose + profitLose;
+
+   console.log(date);
+   console.log(profitLose);
+   console.log("iteration:" + i);
+
+};
+console.log(totalProfitLose);
