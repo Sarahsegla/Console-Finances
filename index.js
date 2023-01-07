@@ -1,4 +1,5 @@
-var finances = [
+//var 
+let finances = [
     ['Jan-2010', 867884],
     ['Feb-2010', 984655],
     ['Mar-2010', 322013],
@@ -86,4 +87,42 @@ var finances = [
     ['Jan-2017', 138230],
     ['Feb-2017', 671099]
     ];
+
+    for (var i = 0; i < finances.length; i++) {
+        console.log(finances[i]);
+    };
+
+    for (var i = 0; i < finances.length; i++) {
+        console.log(finances[0][1]);
+        console.log(finances[85][1]);
+
+    };
     
+    console.log(finances[0][1] + finances[1][1]);
+ 
+   // let array2D = [[1,2,3], [4,5,6]];
+
+    // array2D[0][1];
+
+  
+
+    //let total = 0;
+
+    //finances.forEach(item => {
+    //    total += item.price;
+    //})
+
+    //console.log("TOTAL: ", total);
+
+
+
+   console.log(finances.length);
+
+let totalMonths =  console.log(finances.length); 
+
+//for (let i = 0; i < totalMonths; i++) {
+  //  console.log(finances[1]);
+  //  console.log(finances[1][0]);
+//};
+
+
